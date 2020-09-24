@@ -17,5 +17,9 @@ public class StudentApp {
 
         Person muteba = studentMap.get("Muteba Gizenga");
         System.out.println(muteba);
+        System.out.println("-----");
+
+        Collection<Person> allStudents = studentMap.values();
+        allStudents.forEach(System.out::println);
     }
 }
