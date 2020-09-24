@@ -25,5 +25,8 @@ public class StudentApp {
 
         Set<String> studentNames = studentMap.keySet();
         studentNames.forEach(System.out::println);
+        System.out.println("-----");
+
+        studentMap.forEach((key, value) -> System.out.println("Key: " + key + " - " + value));
     }
 }
