@@ -21,5 +21,9 @@ public class StudentApp {
 
         Collection<Person> allStudents = studentMap.values();
         allStudents.forEach(System.out::println);
+        System.out.println("-----");
+
+        Set<String> studentNames = studentMap.keySet();
+        studentNames.forEach(System.out::println);
     }
 }
