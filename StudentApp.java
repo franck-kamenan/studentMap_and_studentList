@@ -28,5 +28,8 @@ public class StudentApp {
         System.out.println("-----");
 
         studentMap.forEach((key, value) -> System.out.println("Key: " + key + " - " + value));
+        System.out.println("-----");
+
+        studentNames.forEach(e -> System.out.println(studentMap.get(e)));
     }
 }
